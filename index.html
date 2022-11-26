@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="./style.css" />
+  <title>Вгадай моє число!</title>
+</head>
+
+<body>
+  <header>
+    <h1>Вгадай моє число!</h1>
+    <p class="between">(Між 1 і 20)</p>
+    <button class="btn again">Знову!</button>
+    <div class="number">?</div>
+  </header>
+  <main>
+    <section class="left">
+      <input type="number" class="guess" />
+      <button class="btn check">Перевірити!</button>
+    </section>
+    <section class="right">
+      <p class="message">Починайте вгадувати...</p>
+      <p class="label-score">💯 Бал: <span class="score">20</span></p>
+      <p class="label-highscore">
+        🥇 Найвищий бал: <span class="highscore">0</span>
+      </p>
+    </section>
+  </main>
+  <script src="./script.js"></script>
+</body>
+
+</html>
